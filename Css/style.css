@@ -1,0 +1,315 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.borde{
+  border: 1px solid black;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.titulo{
+  text-align: center;
+  text-transform: uppercase;
+}
+.subtitulo{
+  text-align: center;
+  text-transform: uppercase;
+  border-top: .5px solid black;
+  border-bottom: .5px solid black;
+}
+
+
+/** OTROS Y VERSION **/
+.otros {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.codigo{
+  flex:1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.version{
+  flex:1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.fecha{
+  flex: 1;
+  border-bottom: .5px solid black;
+}
+
+
+/*** PROCESO ***/
+.proceso{
+  display: flex;
+}
+
+.solicitud{
+  flex:1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.solicitud p{
+  margin: 0;
+}
+.proyecto{
+  flex:1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.proyecto p{
+  margin: 0;
+}
+.fecha-entrega{
+  flex: 1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.fecha-entrega p{
+  margin: 0;
+}
+.fecha-retiro{
+  flex: 1;
+  border-bottom: .5px solid black;
+}
+.fecha-retiro p{
+  margin: 0;
+  
+}
+.cajita{
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+/** USUARIO ASIGNADO **/
+.usuario{
+  display: flex;
+}
+.asignado{
+  flex: 1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.asignado p{
+  margin:0;
+}
+.iniciales{
+  flex: 1;
+  border-right: .5px solid black;
+  border-bottom: .5px solid black;
+}
+.iniciales p{
+  margin: 0;
+}
+.ciudad{
+  flex: 1;
+  border-bottom: .5px solid black;
+}
+.ciudad p{
+  margin: 0;
+}
+
+.hoja-de-vida{
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: .5px solid black;
+}
+
+/** HOJA DE VIDA PC**/
+.cpu{
+  display: flex;
+  border-bottom: .5px solid black;
+}
+
+.cpu-maquina{
+  flex: 1;
+}
+
+.cpu-maquina p {
+  margin-left: 1rem;
+}
+.checkbox{
+  flex: 1;
+  align-self: center;
+}
+.no{
+  margin-right: 1rem;
+}
+input[type=checkbox] {
+  transform: scale(2);
+}
+
+/**TIPO PC**/
+.tipo{
+  display: flex;
+  border-bottom: .5px solid black;
+  justify-content: space-around;
+}
+
+.tipo-pc p{
+  margin-left: 1rem;
+}
+
+.retiro{
+  margin-right: 1rem;
+}
+/** MARCA PC  **/
+
+.marca{
+  display: flex;
+  border-bottom: .5px solid black;
+}
+
+.marca-pc{
+  flex: 1;
+  border-right: .5px solid black;
+}
+.marca-pc p{
+  margin: 0;
+}
+.modelo{
+  flex:1;  
+}
+.modelo p{
+  margin: 0;
+}
+
+/** SERIALES **/
+.serial{
+  display: flex;
+  border-bottom: .5px solid black;
+}
+
+.serial-cargador{
+  flex: 1;
+  border-right: .5px solid black;
+}
+.serial-cargador p{
+  margin:0;
+}
+.placa-pc{
+  flex: 1;
+  border-right: .5px solid black;
+}
+.placa-pc p{
+  margin: 0;
+}
+
+.serial-pc{
+  flex: 1;
+}
+
+.serial-pc p{
+  margin: 0;
+}
+
+/** CARACTERISTICAS PC **/
+.caracteristicas {
+  flex: 1;
+  border-bottom: .5px solid black;
+}
+.caracteristicas-pc{
+  margin: 0;
+}
+.caracteristicas-laptop{
+  display: flex;
+}
+
+.procesador{
+  display: flex;
+  flex: 1;
+  margin-top: 1rem;
+}
+.core{
+  align-self:flex-end;
+  margin-left: 1rem;
+}
+.procesador-velocidad{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.windows{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.windows-version{
+  display: flex;
+  margin-top: 1rem;
+}
+.borde-bajo{
+  border:0;
+  border-bottom: 1px solid black;
+}
+.margencito{
+  margin-right: 1rem;
+}
+
+.instalaciones{
+  display: flex;
+}
+
+.primer-nivel{
+  display: flex;
+  flex: 1 0 25%;
+}
+.alinear{
+  margin-left: -5rem;
+}
+
+.alinear-derecha{
+  margin-right: 1rem;
+}
+
+.google {
+  margin-right: -4.6rem;
+}
+
+.alinear-mas{
+  margin-left: -5.6rem;
+}
+
+.ultimo-alinear{
+  margin-left: -10.6rem;
+}
+.otro-alinear{
+  margin-left: -6rem;
+}
+
+/** DISCO DURO **/
+.disco-duro{
+  display: flex;
+}
+
+.discos-duros{
+  border-bottom: 1px solid black;
+}
+
+.cajita-borde{
+  width: 10%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-right: 1rem;
+}
+
+/** MEMORIA RAM  **/
+.ram{
+  display: flex;
+  border-bottom: 1px solid black;
+}
